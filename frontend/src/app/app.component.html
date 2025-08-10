@@ -1,0 +1,8 @@
+<div style="padding: 2rem; font-family: sans-serif;">
+  <h1>IBKR Gateway Connector</h1>
+  <p>Abre la consola del desarrollador (Cmd+Option+J) para ver los logs.</p>
+  <button style="margin-right: 10px; padding: 10px;" (click)="getAccounts()">Obtener Cuentas de IBKR</button>
+  <hr style="margin: 20px 0;">
+  <h3>Respuesta de Cuentas:</h3>
+  <pre style="background-color: #f4f4f4; padding: 15px; border-radius: 5px;">{{ accountsData | json }}</pre>
+</div>
