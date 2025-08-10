@@ -6,3 +6,19 @@ build/
 .env.*
 .DS_Store
 coverage/
+
+# Java / Maven
+backend/target/
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# macOS
+**/.DS_Store
